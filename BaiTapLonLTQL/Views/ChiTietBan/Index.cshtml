@@ -1,0 +1,52 @@
+﻿@model IEnumerable<BaiTapLonLTQL.Models.ChiTietBan>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.HangHoa.MaHangHoa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HDBan.SoHDBan)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DonGia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SoLuong)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.HangHoa.MaHangHoa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HDBan.SoHDBan)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DonGia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SoLuong)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { soHdb = item.SoHDBan, maHanghoa = item.MaHangHoa }) |
+            @Html.ActionLink("Details", "Details", new { soHdb = item.SoHDBan, maHanghoa = item.MaHangHoa }) |
+            @Html.ActionLink("Delete", "Delete", new { soHdb = item.SoHDBan, maHanghoa = item.MaHangHoa })
+        </td>
+    </tr>
+}
+
+</table>

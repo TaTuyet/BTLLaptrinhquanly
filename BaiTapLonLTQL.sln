@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiTapLonLTQL", "BaiTapLonLTQL\BaiTapLonLTQL.csproj", "{00CA2784-4B2E-46AE-BF9D-A60D5DA1A540}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00CA2784-4B2E-46AE-BF9D-A60D5DA1A540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00CA2784-4B2E-46AE-BF9D-A60D5DA1A540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00CA2784-4B2E-46AE-BF9D-A60D5DA1A540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00CA2784-4B2E-46AE-BF9D-A60D5DA1A540}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0471FBFF-9878-4975-8D61-A7390CD3EDA5}
+	EndGlobalSection
+EndGlobal
